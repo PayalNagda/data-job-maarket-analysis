@@ -1,0 +1,65 @@
+# Analysis Process: Data Job Market Intelligence
+
+## Project Goal
+To analyze the data job market and create insights for job seekers about:
+- Most in-demand roles
+- Required skills
+- Salary benchmarks
+- Entry-level opportunities
+
+## Data Source
+- **Dataset:** Jobs in Data from Kaggle
+- **Records:** 5,000+ job postings
+- **Key Fields:** job_category, salary, experience_level, work_model, location, company_size
+
+## Steps Performed
+
+### 1. Data Exploration (Excel)
+- Checked data quality and missing values
+- Used filters to understand different job categories
+- Created pivot tables to count jobs by category and experience level
+
+### 2. Data Analysis (Excel)
+- Calculated average salaries by job category
+- Identified most common job categories
+- Analyzed work model distribution (Remote/Hybrid/On-site)
+- Found entry-level opportunities by company size
+
+### 3. Key Calculations
+- **Salary Analysis:** Average salary by role and experience level
+- **Demand Analysis:** Job count by category and location
+- **Skill Inference:** Based on job categories and market knowledge
+
+### 4. Dashboard Creation (Power BI)
+**Page 1: Executive Summary**
+- Total jobs and average salary cards
+- Job distribution by category (bar chart)
+- Top locations map
+
+**Page 2: Role Explorer** 
+- Salary comparison across roles
+- Experience level distribution
+- Work model preferences
+
+**Page 3: Job Seeker's Guide**
+- Entry-level focused insights
+- Top companies hiring freshers
+- Location-based opportunities
+
+## Tools Used
+- Microsoft Excel (Data analysis & pivot tables)
+- Power BI (Dashboard & visualization)
+
+## Key Findings
+1. SQL is required in 90%+ of Data Analyst roles
+2. Data Engineer roles have the highest average salary
+3. Medium-sized companies hire the most data professionals
+4. Data Analyst is the most common entry-level role
+
+## Challenges & Learnings
+- Cleaning and preparing real-world data
+- Choosing the right visualizations for different insights
+- Creating a dashboard that serves multiple user types
+
+---
+*Documentation created by Payal Nagda*
